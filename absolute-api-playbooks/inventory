@@ -1,2 +1,8 @@
 [jenkins-server]
 absolute.jenkins.com
+
+[docker-server]
+absolute.docker.com
+
+[minikube-server]
+127.0.0.1

@@ -1,0 +1,8 @@
+---
+- name: Install Minikube
+  hosts: minikube-server
+  gather_facts: false
+  become: true
+  tasks:
+    - import_role:
+        name: minikube
