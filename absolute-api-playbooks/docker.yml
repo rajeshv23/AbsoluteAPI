@@ -1,8 +1,8 @@
 ---
-- name: Install Jenkins
-  hosts: jenkins-server
+- name: Install Docker
+  hosts: docker-server
   gather_facts: false
   become: true
   tasks:
     - import_role:
-        name: jenkins
+        name: docker
